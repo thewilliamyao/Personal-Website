@@ -1,10 +1,15 @@
  <!DOCTYPE html>
 <html data-ng-app="">
-    <body>
+    <head>
+    </head>
+    <body data-ng-init="names=['John Smith', 'John Doe', 'Jane Doe']">
         Name:
         <br />
         <input type="text" data-ng-model="name" /> {{ name }}
-
+        <br />
+        <ul>
+            <li data-ng-repeat="personName in names"> {{personName}} <il>
+        </ul>
         <script src="angular.min.js"></script>
     </body>
 </html>
