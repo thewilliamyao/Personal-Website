@@ -2,16 +2,16 @@
 <html data-ng-app="">
     <head>
     </head>
-    <body>
-        <div data-ng-controller="SimpleController">
-        Name:
+    <body data-ng-controller="SimpleController">
+        
+            Name:
             <br />
             <input type="text" data-ng-model="name" />
             <br />
             <ul>
                 <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'"> {{cust.name}} - {{cust.city}} <il>
             </ul>
-        </div>
+        
         <script src="angular.min.js"></script>
         <script>
             function SimpleController($scope) {
@@ -20,7 +20,6 @@
                     {name:'John Doe', city:'Vancouver'}, 
                     {name:'Jane Doe', city:'Baltimore'}
                 ];
-
             }
         </script>
     </body>
