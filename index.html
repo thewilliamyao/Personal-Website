@@ -5,10 +5,10 @@
     <body data-ng-init="customers=[{name:'John Smith', city:'Phoenix'}, {name:'John Doe', city:'Vancouver'}, {name:'Jane Doe', city:'Baltimore'}]">
         Name:
         <br />
-        <input type="text" data-ng-model="name" /> {{ name }}
+        <input type="text" data-ng-model="name" />
         <br />
         <ul>
-            <li data-ng-repeat="cust in customers"> {{cust.name}} - {{cust.city}} <il>
+            <li data-ng-repeat="cust in customers | filter:name"> {{cust.name}} - {{cust.city}} <il>
         </ul>
         <script src="angular.min.js"></script>
     </body>
