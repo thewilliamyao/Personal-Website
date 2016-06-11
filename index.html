@@ -5,12 +5,12 @@
     <body>
         <div data-ng-controller="SimpleController">
         Name:
-        <br />
-        <input type="text" data-ng-model="name" />
-        <br />
-        <ul>
-            <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'"> {{cust.name}} - {{cust.city}} <il>
-        </ul>
+            <br />
+            <input type="text" data-ng-model="name" />
+            <br />
+            <ul>
+                <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'"> {{cust.name}} - {{cust.city}} <il>
+            </ul>
         </div>
         <script src="angular.min.js"></script>
         <script>
@@ -22,5 +22,6 @@
                 ];
 
             }
+        </script>
     </body>
 </html>
