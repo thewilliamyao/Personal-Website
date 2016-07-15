@@ -9,13 +9,13 @@
             <input type="text" data-ng-model="name" />
             <br />
             <ul>
-                <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'"> {{cust.name}} - {{cust.city}} <il>
+                <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'"> {{cust.name}} - {{cust.city}} </il>
             </ul>
         
         <script src="angular.min.js"></script>
         <script>
             function SimpleController($scope) {
-                #scope.customers = [
+                $scope.customers = [
                     {name:'John Smith', city:'Phoenix'}, 
                     {name:'John Doe', city:'Vancouver'}, 
                     {name:'Jane Doe', city:'Baltimore'}
