@@ -40,15 +40,15 @@ body {
     color: #999
 }
 
-.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-}
+/*.no-padding {*/
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+/*}*/
 
-.no-padding [class^="col-"] {
-    padding-left: 0;
-    padding-right: 0;
-}
+/*.no-padding [class^="col-"] {*/
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+/*}*/
 
 .main-container {
     padding: 100px 0;
