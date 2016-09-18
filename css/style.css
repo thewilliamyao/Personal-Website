@@ -1184,7 +1184,7 @@ textarea:focus {
     }
 }
 
-.answers {
-    background-image: url("/img/answers.png");
-    /*background: url("img/answers.png") 50% 50% no-repeat;*/
-}
+/*.answers {*/
+    /*background-image: url("/img/answers.png");*/
+    /*!*background: url("img/answers.png") 50% 50% no-repeat;*!*/
+/*}*/
