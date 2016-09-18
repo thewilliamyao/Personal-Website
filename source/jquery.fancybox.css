@@ -50,7 +50,7 @@
 }
 
 .fancybox-inner {
-	width: auto;
+	width: auto !important;
 	overflow: hidden;
 }
 
@@ -229,9 +229,9 @@
 	padding: 2px 20px;
 	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
 	background: rgba(0, 0, 0, 0.8);
-	-webkit-border-radius: 15px;
-	   -moz-border-radius: 15px;
-	        border-radius: 15px;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
 	text-shadow: 0 1px 2px #222;
 	color: #FFF;
 	font-weight: bold;
