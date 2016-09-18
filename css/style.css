@@ -1183,3 +1183,7 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+.answers {
+    background: url("img/answers.png") 50% 50% no-repeat;
+}
