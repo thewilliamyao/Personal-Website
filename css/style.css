@@ -725,7 +725,7 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     text-decoration: none;
 }
 
-.portfolio_container > div {
+.actual_portfolio {
     padding: 10px !important;
 }
 
