@@ -726,7 +726,7 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
 }
 
 .portfolio_container > div {
-    padding: 10px;
+    padding: 10px !important;
 }
 
 .portfolio_filter {
