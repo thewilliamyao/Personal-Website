@@ -532,12 +532,11 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     line-height: 1.0;
 }
 
-@media (max-width:850px) {
-    .box-words-wrapper {
-        width: auto;
-
-    }
-}
+/*@media (max-width:850px) {*/
+    /*.box-words-wrapper {*/
+        /*width: auto;*/
+    /*}*/
+/*}*/
 
 .box-words-wrapper {
     display: inline-block;
