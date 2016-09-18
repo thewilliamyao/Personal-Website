@@ -25,6 +25,7 @@
 }
 
 .fancybox-skin {
+	padding: 0px;
 	position: relative;
 	background: #f9f9f9;
 	color: #444;
