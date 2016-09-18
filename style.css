@@ -853,7 +853,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(42, 24, 3, 0);
+    background: rgba(146, 168, 209, 0.5);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
