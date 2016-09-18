@@ -438,8 +438,7 @@ h5 {
     text-transform: uppercase
 }
 
-b i:last-child {
-    #91A8d0
+b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     color: #91A8d0 !important;
 }
 
