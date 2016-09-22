@@ -560,7 +560,7 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
 
 @media (max-width: 480px) {
     .box-words-wrapper b:nth-child(2) {
-        left: 0px !important;
+        left: 7.5% !important;
     }
 }
 
