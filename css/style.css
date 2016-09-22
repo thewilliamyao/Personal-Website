@@ -554,9 +554,13 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     left: 0;
 }
 
-@media (min-width: 480px) {
+.box-words-wrapper b:nth-child(2) {
+    left: 125px;
+}
+
+@media (max-width: 480px) {
     .box-words-wrapper b:nth-child(2) {
-        left: 125px;
+        left: 0px;
     }
 }
 
