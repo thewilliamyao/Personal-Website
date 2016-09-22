@@ -547,8 +547,17 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     display: inline-block;
     position: absolute;
     white-space: nowrap;
-    left: 0;
     top: 0;
+}
+
+.box-words-wrapper b:first-child {
+    left: 0;
+}
+
+@media (min-width: 480px) {
+    .box-words-wrapper b:nth-child(2) {
+        left: 125px;
+    }
 }
 
 .box-words-wrapper b.is-visible {
