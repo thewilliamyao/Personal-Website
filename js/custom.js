@@ -62,9 +62,9 @@ $(window).load(function () {
     });
 
     //portfolio_item scroll
-    $(".portfolio_item").on('click', function () {
-        $('body,html').animate({
-            scrollTop: 0,
-        }, scroll_top_duration);
-    });
+    // $(".portfolio_item").on('click', function (event) {
+    //     $('body,html').animate({
+    //         scrollTop: 0,
+    //     }, scroll_top_duration).promise().done(function (event){});
+    // });
 });

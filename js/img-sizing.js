@@ -32,6 +32,8 @@ $( window ).resize(function() {
         $("#featured-img").removeClass("long-img").addClass("img-responsive").css({'height': "auto"});
     }
     else
+    {
         $(".long-img").attr("src", "img/answers_wider.png");
-    $("#featured-img").removeClass("long-responsive").addClass("long-img").css({'height': ""});
+        $("#featured-img").removeClass("img-responsive").addClass("long-img").css({'height': ""});
+    }
 });
