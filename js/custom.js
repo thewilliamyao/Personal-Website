@@ -60,4 +60,11 @@ $(window).load(function () {
             $(this).next("span").removeClass("active");
         }
     });
+
+    //portfolio_item scroll
+    $(".portfolio_item").on('click', function () {
+        $('body,html').animate({
+            scrollTop: 0,
+        }, scroll_top_duration);
+    });
 });
