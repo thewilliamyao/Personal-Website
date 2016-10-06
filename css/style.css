@@ -98,6 +98,16 @@ h5 {
     color: #91A8d0;
 }
 
+.easter-egg {
+    font-weight: 500;
+    padding-bottom: 30px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #91A8d0;
+}
+
 
 /* preloader
 ==================================================*/
@@ -1157,6 +1167,7 @@ textarea:focus {
     .box-headline {
         font-size: 100px;
     }
+    .easter-egg,
     .box-intro h5 {
         font-size: 12px;
     }
@@ -1184,6 +1195,7 @@ textarea:focus {
     .box-headline {
         font-size: 80px;
     }
+    .easter-egg,
     .box-intro h5 {
         font-size: 12px;
     }

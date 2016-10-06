@@ -21,6 +21,9 @@ $( document ).ready(function() {
     if($(window).width() <= 767) {
         $(".long-img").attr("src", "img/answers_square.png");
         $("#featured-img").removeClass("long-img").addClass("img-responsive");
+        $(".img-responsive").css({
+           'width': $(".box-words-wrapper").width()
+        });
     }
     else
         $(".long-img").attr("src", "img/answers_wider.png");
