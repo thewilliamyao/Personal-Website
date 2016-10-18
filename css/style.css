@@ -577,11 +577,11 @@ b i:last-child, b i:nth-last-child(2), b i:nth-last-child(3) {
     left: 125px;
 }
 
-/*@media (max-width: 480px) {*/
-    /*.box-words-wrapper b:nth-child(2) {*/
-        /*left: 15% !important;*/
-    /*}*/
-/*}*/
+@media (max-width: 480px) {
+    .box-words-wrapper b:nth-child(2) {
+        left: 15% !important;
+    }
+}
 
 .box-words-wrapper b.is-visible {
     position: relative;
