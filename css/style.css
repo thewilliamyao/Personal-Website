@@ -98,9 +98,14 @@ h5 {
     color: #91A8d0;
 }
 
+.egg-container {
+    display: inline-block;
+    padding-top: 10px;
+}
+
 .easter-egg {
     font-weight: 500;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
     letter-spacing: 4px;
     font-size: 14px;
     line-height: 1.7;
