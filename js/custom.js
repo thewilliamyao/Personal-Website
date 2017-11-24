@@ -6,7 +6,7 @@ $(window).load(function () {
     $('body').delay(550).css({
         'overflow': 'visible'
     });
-
+    
 
     //  isotope
     var $container = $('.portfolio_container');
