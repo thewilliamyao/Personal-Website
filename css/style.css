@@ -1155,82 +1155,6 @@ textarea:focus {
     color: #91A8d0;
 }
 
-
-/* Responsive media queries
-==================================================*/
-
-@media (max-width: 991px) {
-    .portfolio .categories-grid span {
-        margin-bottom: 0;
-        text-align: center;
-        width: 100%;
-    }
-    .portfolio .categories-grid .categories ul li {
-        text-align: center;
-    }
-    .portfolio .categories-grid .categories ul li a {
-        margin-left: 0;
-    }
-    .col-md-6 h3 {
-        margin-top: 30px;
-    }
-
-}
-
-@media only screen and (max-width: 670px) {
-    .box-headline {
-        font-size: 100px;
-    }
-    .easter-egg,
-    .box-intro h5 {
-        font-size: 12px;
-    }
-    .box-primary-nav a {
-        padding: 5px 1em;
-        font-size: 14px;
-    }
-    .box-primary-nav {
-        padding: 80px 0 0;
-    }
-    .box-primary-nav .box-social a {
-        font-size: 23px;
-    }
-    .top-bar h1 {
-        font-size: 40px;
-        line-height: 30px;
-    }
-    .portfolio .categories-grid .categories ul li {
-        float: none;
-    }
-
-}
-
-@media only screen and (max-width: 520px) {
-    .box-headline {
-        font-size: 80px;
-    }
-    .easter-egg,
-    .box-intro h5 {
-        font-size: 12px;
-    }
-    .main-container {
-        padding: 50px 0;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .box-headline {
-        font-size: 50px;
-    }
-    .box-intro h5 {
-         font-size: 12px;
-    }
-    .top-bar h1 {
-         font-size: 30px;
-         line-height: 30px;
-    }
-}
-
 /* Portfolio
 ==================================================*/
 .top-bar-fixed {
@@ -1243,8 +1167,8 @@ textarea:focus {
     opacity: 0;
     -webkit-animation: fadeinout 1s linear forwards;
     animation: fadeinout 1s linear forwards;
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
 }
 
 @-webkit-keyframes fadeinout {
@@ -1375,8 +1299,109 @@ iframe {
 .hack-footer {
     text-align: center;
     height: 50px;
+    margin-top: 15px;
 }
 
 .hack-footer a {
     color: #91A8d0;
+    font-size: 20px;
+}
+
+.hack-portfolio .portfolio_item .portfolio_item_hover .item_info em:nth-child(3) {
+    font-size: 15px;
+    padding: 0 5px;
+    vertical-align: bottom;
+}
+
+
+/* Responsive media queries
+==================================================*/
+
+@media (max-width: 991px) {
+    .portfolio .categories-grid span {
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio .categories-grid .categories ul li {
+        text-align: center;
+    }
+    .portfolio .categories-grid .categories ul li a {
+        margin-left: 0;
+    }
+    .col-md-6 h3 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .box-headline {
+        font-size: 100px;
+    }
+    .easter-egg,
+    .box-intro h5 {
+        font-size: 12px;
+    }
+    .box-primary-nav a {
+        padding: 5px 1em;
+        font-size: 14px;
+    }
+    .box-primary-nav {
+        padding: 80px 0 0;
+    }
+    .box-primary-nav .box-social a {
+        font-size: 23px;
+    }
+    .top-bar h1 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .portfolio .categories-grid .categories ul li {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .box-headline {
+        font-size: 80px;
+    }
+    .easter-egg,
+    .box-intro h5 {
+        font-size: 12px;
+    }
+    .main-container {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .box-headline {
+        font-size: 50px;
+    }
+    .box-intro h5 {
+         font-size: 12px;
+    }
+    .top-bar h1 {
+         font-size: 30px;
+         line-height: 30px;
+    }
+}
+
+@media (max-width: 534px) {
+    .top-bar-fixed {
+        position: initial;
+        margin-bottom: -100px;
+    }
+    .top-bar-fixed ul{
+        display: none;
+    }
+    .top-bar-fixed .top-name{
+        float: inherit;
+        width: auto;
+        text-align: center;
+    }
+    .title-description {
+        padding-right: 0;
+    }
 }
