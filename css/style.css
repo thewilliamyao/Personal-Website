@@ -1279,7 +1279,7 @@ iframe {
     width: 100%;
 }
 
-.fb-video {
+.feature-container .fb-video {
     max-width: 640px;
 }
 
