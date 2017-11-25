@@ -1355,3 +1355,28 @@ iframe {
     width: 100%;
 }
 
+/* Hacks
+==================================================*/
+
+
+.hack-portfolio {
+    padding: 2%;
+}
+
+.hack-portfolio a {
+    box-shadow: 5px 10px 20px lightgrey;
+}
+
+.hack-inner {
+    padding-bottom: 0 !important;
+    padding-top: 15px;
+}
+
+.hack-footer {
+    text-align: center;
+    height: 50px;
+}
+
+.hack-footer a {
+    color: #91A8d0;
+}
